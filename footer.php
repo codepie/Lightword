@@ -4,9 +4,9 @@
 <span class="text">
 <?php
 $blog_name = '<a href="'.get_bloginfo('url').'">'.get_bloginfo('name').'</a>';
-printf(__('Copyright %s %s %s &middot; Powered by %s <br/>','lightword'),'&copy;',date('Y'),$blog_name,'<a href="http://www.wordpress.org" title="WordPress" target="_blank">WordPress</a>')
+printf(__('Copyright %s %s %s &middot; Powered by %s <br/>','lightword'),'&copy;',date('Y'),$blog_name,'WordPress')
 ;?>
-<?php _e('<a href="http://www.lightword-design.com/" target="_blank" title="Lightword Theme">Lightword Theme</a> by Andrei Luca','lightword')
+<?php _e('Lightword Theme by Andrei Luca','lightword')
 ;?>
 </em>
 <?php global $lw_footer_content; echo $lw_footer_content; ?>
