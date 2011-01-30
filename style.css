@@ -18,7 +18,8 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 .clear{clear:both;}
 body{background-color:#2C2C29;font-family:Tahoma;font-size:11px;color:#2C2C29;}
 p{font-size:1.2em;padding:2px;margin:1px 0 15px;}
-a{color:#807D7A;}
+a{color:#807D7A;text-decoration:none;}
+a:hover{text-decoration:underline;}
 h2{background-color:#FFF;border-bottom:1px solid #DCDCDB;letter-spacing:-1px;font-size:24px;padding-bottom:3px;font-weight:400;margin:10px 0 3px 0;font-family:Vera, Helvetica, Georgia;}
 h3#reply-title{background:transparent;border-bottom:1px solid #DCDCDB;letter-spacing:-1px;font-size:24px;padding-bottom:3px;font-weight:400;margin:10px 0 3px 0;font-family:Vera, Helvetica, Georgia;}
 h2 a{font-weight:700;border:0;text-decoration:none;color:#2C2C29;display:block;}
@@ -31,6 +32,7 @@ pre{width:100%; white-space:pre-wrap;}
 dl{padding:.4em 0 1em;}
 dt{text-decoration:underline;font-weight:bold;}
 dd{}
+code{font-family:Monospace;font-size:16px;background-color:#EEEEEE;}
 
 /* LAYOUT */
 #wrapper{margin:0 auto;text-align:left;}
