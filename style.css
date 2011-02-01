@@ -23,6 +23,7 @@ a:hover{text-decoration:underline;}
 h2{background-color:#FFF;border-bottom:1px solid #DCDCDB;letter-spacing:-1px;font-size:24px;padding-bottom:3px;font-weight:400;margin:10px 0 3px 0;font-family:Vera, Helvetica, Georgia;}
 h3#reply-title{background:transparent;border-bottom:1px solid #DCDCDB;letter-spacing:-1px;font-size:24px;padding-bottom:3px;font-weight:400;margin:10px 0 3px 0;font-family:Vera, Helvetica, Georgia;}
 h2 a{font-weight:700;border:0;text-decoration:none;color:#2C2C29;display:block;}
+h2 a:hover{text-decoration:none;}
 h3{font-size:1.8em;margin: 15px 0 15px;}
 h4{font-size:1.5em;margin: 15px 0 15px;}
 h5{font-size:1.4em;margin: 15px 0 15px;}
@@ -169,6 +170,7 @@ li.comment-author-admin{border:1px solid #BBBBBB !important; }
 #tabsContainer p{margin-bottom:-2px !important;}
 #tabsContainer{margin-top:2em;}
 #tabsContainer a{text-decoration:none;}
+#tabsContainer .subscribe_comments a:hover{text-decoration:underline;}
 .trackbacks{background-color:#EEEEEE;margin-bottom:5px;padding:10px;border-bottom:1px solid #CCC;}
 .tab-content {background-color:#FFF;display: none;}
 .tab-content p.no{padding-top:10px;}
