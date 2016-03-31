@@ -8,7 +8,6 @@ printf(__('Copyright %s %s %s &middot; Powered by %s <br/>','lightword'),'&copy;
 ;?>
 <?php _e('Lightword Theme by Andrei Luca','lightword')
 ;?>
-</em>
 <?php global $lw_footer_content; echo $lw_footer_content; ?>
 <a title="<?php _e('Go to top','lightword'); ?>" class="top" href="#top"><?php _e('Go to top','lightword'); ?> &uarr;</a>
 </span>

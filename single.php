@@ -7,6 +7,12 @@
 <h2><a title="<?php the_title(); ?>" href="<?php the_permalink() ?>" rel="bookmark"><?php the_title(); ?></a></h2>
 <?php edit_post_link(__('Edit this post','lightword'), '<span class="edit_content">', '</span>'); ?>
 <?php lightword_simple_date(); ?>
+<div class="addthis_toolbox addthis_default_style" style="margin:15px 0px 10px;">
+    <a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
+    <a class="addthis_button_tweet"></a>
+    <a class="addthis_button_google_plusone" g:plusone:size="medium"></a>
+    <a class="addthis_counter addthis_pill_style"></a>
+</div>
 <?php lightword_adsense_spot(); // you can add the adsense code via theme settings ?>
 <?php if (  (function_exists('has_post_thumbnail')) && (has_post_thumbnail())  ) { the_post_thumbnail(array( 200,200 ), array( 'class' => 'alignleft' )); } ?>
 <?php the_content(''); ?>

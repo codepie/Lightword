@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
-<html xmlns="http://www.w3.org/1999/xhtml" <?php language_attributes(); ?>>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:addthis="http://www.addthis.com/help/api-spec" <?php language_attributes(); ?>>
 
 <head profile="http://gmpg.org/xfn/11">
 <meta http-equiv="Content-Type" content="<?php bloginfo('html_type'); ?>; charset=<?php bloginfo('charset'); ?>" />
@@ -10,6 +10,7 @@
 <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 <?php if ( is_singular() ) wp_enqueue_script( 'comment-reply' ); ?>
 <?php global $lw_header_content, $lw_wp3_menus; echo "\n".$lw_header_content."\n"; ?>
+<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=hvtuananh"></script>
 <?php wp_enqueue_script('jquery'); ?>
 <?php wp_head(); ?>
 </head>
